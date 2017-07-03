@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package factura;
+package negocio;
 
 import java.util.ArrayList; 
 import java.util.Date;
@@ -34,7 +34,7 @@ public class Factura {
     public ArrayList<FormaCobro> getItemFormaCobro() {
         return formaCobro;
     }
-    public void formaCobro(FormaCobro pFormaCobro){
+    public void agregarformaCobro(FormaCobro pFormaCobro){
        formaCobro.add(pFormaCobro);
     }    
 
